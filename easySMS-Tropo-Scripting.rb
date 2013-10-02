@@ -1,5 +1,5 @@
 #----------
-# Easy SMS Send Example Written in Python and Runs on Tropo Scripting Platform
+# Easy SMS Send Example Written in Ruby and Runs on Tropo Scripting Platform
 # 
 # Create a new Tropo Scripting App, copy/paste this code and assign a U.S. or Candian phone number
 # Send an SMS using the Tropo API key assigned to this app like this:
