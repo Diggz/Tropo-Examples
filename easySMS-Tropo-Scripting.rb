@@ -13,4 +13,4 @@ message($myString, {
   :network => "SMS", 
   :callerID => "+18722338226"})
   
-# ^^^ Make sure you set callerID to the phone number assigned to your Tropo App!!!
+# ^^^ Make sure you replace callerID to the phone number assigned to your Tropo App!!!
