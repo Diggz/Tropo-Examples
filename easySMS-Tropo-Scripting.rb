@@ -8,9 +8,4 @@
 #  -- replace myNumber with the target number you want to receive the SMS --
 #----------
 
-message($myString, {
-  :to => $myNumber, 
-  :network => "SMS", 
-  :callerID => "+18722338226"})
-  
-# ^^^ Make sure you replace callerID to the phone number assigned to your Tropo App!!!
+message $myString, to: $myNumber, network: "SMS"
