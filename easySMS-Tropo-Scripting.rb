@@ -8,4 +8,6 @@
 #  -- replace myNumber with the target number you want to receive the SMS --
 #----------
 
-message $myString, to: $myNumber, network: "SMS"
+message ($myString, {:to => $myNumber, :network => "SMS", :callerID => "+15554441212"})
+
+
