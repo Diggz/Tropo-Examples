@@ -1,6 +1,6 @@
 #----------
 # Slack SMS Example Written in Ruby and Runs on Tropo Scripting Platform
-# Rember to change the callerID in to match your Tropo app's phone number
+# Remember to change the callerID in to match your Tropo app's phone number
 #----------
 
 # Fetch phone numbers in a comma delimited string
@@ -10,7 +10,7 @@ phones = $myNumbers
 numbers = phones.split(",")
 numbers.each do |number|
 
-   message($myString+" from "+$user_name+": "+$text, {
+   message($myString+" "+$user_name+": "+$text, {
 	:to => number,
 	:network => "SMS",
 	:callerID => "+14155551212"
